@@ -30,3 +30,12 @@ Početak | Kraj
 18:00   | 18:35
 ### Kratki opis promjena:
 Izrada nove komponente "ProductItem.js" koju koristimo za prikaz proizvoda, te oblikovanje (stiliranje) ispisa kako bi ljepše izgledalo. Također su dodani botuni "View Details" i "To Cart" koji trenutno nemaju nikakvu funkcionalnost.
+
+
+## 30.01.2021.
+Početak | Kraj
+------- | ----
+22:00   | 00:00
+### Kratki opis promjena:
+Dodavanje "Touchable" komponente, te oblikovanje ekrana za prikaz detalja pojedinog proizvoda.
+Problemi s dohvaćanjem custom google fontova, pa sam ostavio zadani font i samo mijenjao njegovu težinu, odnosno da li će određeni tekst biti "boldan" ili ne.
