@@ -1,10 +1,10 @@
 # Evidencija aktivnosti
-<x>
-## dd.mm.2021.
+
+## 30.01.2021.
 Pocetak | Kraj
 ------- | ----
-hh:mm   | hh:mm
+11:00   | 12:00
 ### Kratki opis promjena
-Definirani zahtjevi aplikacije.
-Dovršena prva faza projekta.
-<x>
+Definiran opis projekta, popis njegovih funkcionalnosti, te početna struktura aplikacije.
+
+
