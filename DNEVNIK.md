@@ -67,3 +67,11 @@ Početak | Kraj
 ### Kratki opis promjena:
 Dodana Redux logika i ekran za narudžbe ("OrdersScreen"), te napravljena drawer navigacija.
 
+
+## 31.01.2021.
+Početak | Kraj
+------- | ----
+23:30   | 00:30
+### Kratki opis promjena:
+Implementirano čišćenje košarice ukoliko izvršimo narudžbu i oblikovanje ekrana koji prikazuje prethodno izvršene narudžbe (prikaz datuma kada smo ih izvršili).
+
