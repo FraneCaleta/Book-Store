@@ -2,14 +2,17 @@ import React from "react";
 import { StyleSheet } from "react-native";
 import { createStore, combineReducers } from "redux";
 import { Provider } from "react-redux";
-/* import AppLoading from "expo-app-loading";
-import * as Font from "expo-font"; */
+/* import AppLoading from "expo-app-loading"; */
+/* import * as Font from "expo-font"; */
+/* import { Ionicons } from "@expo/vector-icons"; */
 
 import productsReducer from "./store/reducers/products";
+import cartReducer from "./store/reducers/cart";
 import ShopNavigator from "./navigation/ShopNavigator";
 
 const rootReducer = combineReducers({
   products: productsReducer,
+  cart: cartReducer,
 });
 
 const store = createStore(rootReducer);

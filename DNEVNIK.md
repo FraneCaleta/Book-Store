@@ -37,5 +37,16 @@ Početak | Kraj
 ------- | ----
 22:00   | 00:00
 ### Kratki opis promjena:
-Dodavanje "Touchable" komponente, te oblikovanje ekrana za prikaz detalja pojedinog proizvoda.
+Uvdena "Touchable" komponente, te oblikovanje ekrana za prikaz detalja pojedinog proizvoda.
 Problemi s dohvaćanjem custom google fontova, pa sam ostavio zadani font i samo mijenjao njegovu težinu, odnosno da li će određeni tekst biti "boldan" ili ne.
+
+
+## 31.01.2021.
+Početak | Kraj
+------- | ----
+11:00   | 15:00
+### Kratki opis promjena:
+Implementirana logika za dodavanje proizvoda u košaricu, te ispis ukupnog novca potrebnog za naručiti odabrane proizvode.
+Oblikovanje ekrana za prikaz proizvoda u kosarici ("CartScreen" ekran).
+Implementiran desni header botun koji nas vodi na košaricu kada pritisnemo na "Cart".
+Nije moguće naručiti proizvod ukoliko je košarica prazna.
