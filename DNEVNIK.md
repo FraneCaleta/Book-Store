@@ -50,3 +50,12 @@ Implementirana logika za dodavanje proizvoda u košaricu, te ispis ukupnog novca
 Oblikovanje ekrana za prikaz proizvoda u kosarici ("CartScreen" ekran).
 Implementiran desni header botun koji nas vodi na košaricu kada pritisnemo na "Cart".
 Nije moguće naručiti proizvod ukoliko je košarica prazna.
+
+
+## 31.01.2021.
+Početak | Kraj
+------- | ----
+16:00   | 17:00
+### Kratki opis promjena:
+Dodan prikaz proizvoda unutar košarice, te implementirana logika za njihovo brisanje pritiskom na "Remove" botun.
+
