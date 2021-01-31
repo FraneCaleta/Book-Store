@@ -59,3 +59,11 @@ Početak | Kraj
 ### Kratki opis promjena:
 Dodan prikaz proizvoda unutar košarice, te implementirana logika za njihovo brisanje pritiskom na "Remove" botun.
 
+
+## 31.01.2021.
+Početak | Kraj
+------- | ----
+21:30   | 22:30
+### Kratki opis promjena:
+Dodana Redux logika i ekran za narudžbe ("OrdersScreen"), te napravljena drawer navigacija.
+

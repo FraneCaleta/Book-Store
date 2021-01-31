@@ -1,5 +1,11 @@
 import React from "react";
-import { FlatList, Text, TouchableOpacity, StyleSheet } from "react-native";
+import {
+  FlatList,
+  Text,
+  TouchableOpacity,
+  StyleSheet,
+  Platform,
+} from "react-native";
 import { useSelector, useDispatch } from "react-redux";
 
 import ProductItem from "../../components/shop/ProductItem";
@@ -38,6 +44,15 @@ const ProductsOverviewScreen = (props) => {
 ProductsOverviewScreen.navigationOptions = (navData) => {
   return {
     headerTitle: "All Products",
+    headerLeft: () => (
+      <TouchableOpacity
+        onPress={() => {
+          navData.navigation.toggleDrawer();
+        }}
+      >
+        <Text style={styles.displayText}>Menu</Text>
+      </TouchableOpacity>
+    ),
     headerRight: () => (
       <TouchableOpacity
         onPress={() => {
@@ -64,8 +79,8 @@ const styles = StyleSheet.create({
   displayText: {
     fontSize: 18,
     fontWeight: "bold",
-    color: Colors.primary,
-    paddingRight: 20,
+    color: Platform.OS === "android" ? "white" : Colors.primary,
+    paddingHorizontal: 20,
   },
 });
 
