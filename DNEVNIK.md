@@ -75,3 +75,12 @@ Početak | Kraj
 ### Kratki opis promjena:
 Implementirano čišćenje košarice ukoliko izvršimo narudžbu i oblikovanje ekrana koji prikazuje prethodno izvršene narudžbe (prikaz datuma kada smo ih izvršili).
 
+## 01.02.2021.
+Početak | Kraj
+------- | ----
+21:00   | 21:30
+### Kratki opis promjena:
+Implemetirana logika za "Show detail" botun unutar naših prethodno izvršenih narudžbi i izrada "UserProduct" ekrana.
+Također dodan pristup drawer navigaciji unutar tog ekrana.
+
+
