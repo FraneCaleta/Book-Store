@@ -84,3 +84,10 @@ Implemetirana logika za "Show detail" botun unutar naših prethodno izvršenih n
 Također dodan pristup drawer navigaciji unutar tog ekrana.
 
 
+## 01.02.2021.
+Početak | Kraj
+------- | ----
+22:30   | 23:00
+### Kratki opis promjena:
+Dodano brisanje svojih proizvoda, te osnovni ekran za uređivanje pojedinog proizvoda. Također je dodana i navigacija za taj ekran.
+

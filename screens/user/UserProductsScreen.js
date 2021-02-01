@@ -3,16 +3,24 @@ import {
   FlatList,
   TouchableOpacity,
   Text,
+  Button,
   StyleSheet,
   Platform,
 } from "react-native";
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 import Colors from "../../constants/Colors";
 
 import ProductItem from "../../components/shop/ProductItem";
+import * as productActions from "../../store/actions/products";
 
 const UserProductScreen = (props) => {
   const userProducts = useSelector((state) => state.products.userProducts);
+  const dispatch = useDispatch();
+
+  const editProductHandler = (id) => {
+    props.navigation.navigate("EditProduct", { productId: id });
+  };
+
   return (
     <FlatList
       data={userProducts}
@@ -22,9 +30,25 @@ const UserProductScreen = (props) => {
           image={itemData.item.imageUrl}
           title={itemData.item.title}
           price={itemData.item.price}
-          onViewDetail={() => {}}
-          onAddCart={() => {}}
-        />
+          onSelect={() => {
+            editProductHandler(itemData.item.id);
+          }}
+        >
+          <Button
+            color={Colors.primary}
+            title="Edit"
+            onPress={() => {
+              editProductHandler(itemData.item.id);
+            }}
+          />
+          <Button
+            color={Colors.primary}
+            title="Delete"
+            onPress={() => {
+              dispatch(productActions.deleteProduct(itemData.item.id));
+            }}
+          />
+        </ProductItem>
       )}
     />
   );
@@ -40,6 +64,15 @@ UserProductScreen.navigationOptions = (navData) => {
         }}
       >
         <Text style={styles.displayText}>Menu</Text>
+      </TouchableOpacity>
+    ),
+    headerRight: () => (
+      <TouchableOpacity
+        onPress={() => {
+          navData.navigation.navigate("EditProduct");
+        }}
+      >
+        <Text style={styles.displayText}>Add</Text>
       </TouchableOpacity>
     ),
   };
