@@ -91,3 +91,11 @@ Početak | Kraj
 ### Kratki opis promjena:
 Dodano brisanje svojih proizvoda, te osnovni ekran za uređivanje pojedinog proizvoda. Također je dodana i navigacija za taj ekran.
 
+
+## 01.02.2021.
+Početak | Kraj
+------- | ----
+22:30   | 23:30
+### Kratki opis promjena:
+Dodana forma za uređivanje ili dodavanje proizvoda, te botun za "submittanje" te forme, odnosno spremanje promjena.
+
