@@ -99,3 +99,11 @@ Početak | Kraj
 ### Kratki opis promjena:
 Dodana forma za uređivanje ili dodavanje proizvoda, te botun za "submittanje" te forme, odnosno spremanje promjena.
 
+
+## 02.02.2021.
+Početak | Kraj
+------- | ----
+13:00   | 14:00
+### Kratki opis promjena:
+Implementirano slanje ("dispatch") akcija kod dodavanja ili uređivanja proizvoda, te konačno refaktoriranje aplikacije.
+
