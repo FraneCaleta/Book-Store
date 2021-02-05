@@ -1,8 +1,7 @@
-import { ADD_TO_CART, REMOVE_FROM_CART } from "../actions/cart";
+import { ADD_TO_CART, REMOVE_ALL, REMOVE_FROM_CART } from "../actions/cart";
 import { ADD_ORDER } from "../actions/orders";
 import { DELETE_PRODUCT } from "../actions/products";
 import CartItem from "../../models/cart-item";
-import { ActivityIndicatorComponent } from "react-native";
 
 const initialState = {
   items: {},
@@ -70,6 +69,12 @@ export default (state = initialState, action) => {
         ...state,
         items: updatedItems,
         totalAmount: state.totalAmount - itemTotal,
+      };
+    case REMOVE_ALL:
+      return {
+        ...state,
+        items: {},
+        totalAmount: 0,
       };
   }
   return state;

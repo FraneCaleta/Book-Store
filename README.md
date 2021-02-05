@@ -4,7 +4,7 @@
 - [x] - Prototip
 - [x] - Konzultacije
 - [x] - Finalna verzija
-- [ ] - Obrana projekta
+- [x] - Obrana projekta
 
 # Opis projekta
 ## Kratki opis

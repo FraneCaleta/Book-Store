@@ -6,6 +6,8 @@ import {
   Image,
   Button,
   StyleSheet,
+  Platform,
+  TouchableOpacity,
 } from "react-native";
 import { useSelector, useDispatch } from "react-redux";
 
@@ -40,10 +42,25 @@ const ProductDetailScreen = (props) => {
 ProductDetailScreen.navigationOptions = (navData) => {
   return {
     headerTitle: navData.navigation.getParam("productTitle"),
+    headerRight: () => (
+      <TouchableOpacity
+        onPress={() => {
+          navData.navigation.navigate("Cart");
+        }}
+      >
+        <Text style={styles.displayText}>Cart</Text>
+      </TouchableOpacity>
+    ),
   };
 };
 
 const styles = StyleSheet.create({
+  displayText: {
+    fontSize: 18,
+    fontWeight: "bold",
+    color: Platform.OS === "android" ? "white" : Colors.primary,
+    paddingHorizontal: 20,
+  },
   image: {
     width: "100%",
     height: 300,

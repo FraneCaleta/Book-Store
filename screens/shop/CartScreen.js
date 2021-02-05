@@ -62,6 +62,14 @@ const CartScreen = (props) => {
           />
         )}
       />
+      <Button
+        color="red"
+        title="Remove all"
+        disabled={cartItems.length === 0}
+        onPress={() => {
+          dispatch(cartActions.removeAll(cartItems));
+        }}
+      />
     </View>
   );
 };

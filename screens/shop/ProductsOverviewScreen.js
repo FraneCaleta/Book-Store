@@ -78,16 +78,6 @@ ProductsOverviewScreen.navigationOptions = (navData) => {
       >
         <Text style={styles.displayText}>Cart</Text>
       </TouchableOpacity>
-
-      /*       <HeaderButton>
-        <Button
-          title="Cart"
-          iconName={Platform.OS == "android" ? "md-cart" : "ios-cart"}
-          onPress={() => {
-            navData.navigation.navigate("Cart");
-          }}
-        />
-      </HeaderButton> */
     ),
   };
 };

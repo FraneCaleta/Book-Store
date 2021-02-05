@@ -107,3 +107,12 @@ Početak | Kraj
 ### Kratki opis promjena:
 Implementirano slanje ("dispatch") akcija kod dodavanja ili uređivanja proizvoda, te konačno refaktoriranje aplikacije.
 
+
+## 05.02.2021.
+Početak | Kraj
+------- | ----
+21:00   | 23:00
+### Kratki opis promjena:
+Dodan remove all botun unutar košarice, te implementirana validacija korisničkog unosa tijekom dodavanja ili uređivanja proizvoda.
+Koristili smo useReducer metodu, te je logika za unos napravljena unutar nove komponente "Input.js".
+
