@@ -116,3 +116,11 @@ Početak | Kraj
 Dodan remove all botun unutar košarice, te implementirana validacija korisničkog unosa tijekom dodavanja ili uređivanja proizvoda.
 Koristili smo useReducer metodu, te je logika za unos napravljena unutar nove komponente "Input.js".
 
+
+## 06.02.2021.
+Početak | Kraj
+------- | ----
+20:00   | 21:00
+### Kratki opis promjena:
+Dodana Firebase baza podataka, dodavanje proizvoda na server, te dohvaćanje podataka sa servera. Također je implementirano "handlanje" errora, te dodan Loading Spinner tijekom dohvaćanja podataka.
+

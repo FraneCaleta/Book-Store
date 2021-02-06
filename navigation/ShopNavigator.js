@@ -17,9 +17,11 @@ const defaultNavOptions = {
   },
   headerTitleStyle: {
     fontWeight: "bold",
+    fontSize: 18,
   },
   headerBackTitleStyle: {
     fontWeight: "bold",
+    fontSize: 18,
   },
   headerTintColor: Platform.OS === "android" ? "white" : Colors.primary,
 };
