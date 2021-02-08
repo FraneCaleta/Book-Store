@@ -28,14 +28,14 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: "bold",
     color: "red",
-    paddingRight: 20,
+    paddingRight: 3,
   },
   cartItem: {
     padding: 10,
     backgroundColor: "white",
     flexDirection: "row",
     justifyContent: "space-between",
-    marginHorizontal: 20,
+    marginHorizontal: 8,
   },
   itemData: {
     flexDirection: "row",
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
   deleteButton: {
-    marginLeft: 20,
+    marginLeft: 25,
   },
 });
 

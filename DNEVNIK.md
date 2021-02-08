@@ -122,5 +122,13 @@ Početak | Kraj
 ------- | ----
 20:00   | 21:00
 ### Kratki opis promjena:
-Dodana Firebase baza podataka, dodavanje proizvoda na server, te dohvaćanje podataka sa servera. Također je implementirano "handlanje" errora, te dodan Loading Spinner tijekom dohvaćanja podataka.
+Dodana Firebase baza podataka, dodavanje proizvoda na server, te dohvaćanje podataka sa servera. Također je implementirano "handlanje" grešaka, te dodan Loading Spinner tijekom dohvaćanja podataka.
+
+
+## 06.02.2021.
+Početak | Kraj
+------- | ----
+22:00   | 23:30
+### Kratki opis promjena:
+Dodano osvježavanje baze podataka nakon uređivanja ili brisanja proizvoda. Dohvaćanje prethodnih narudžbi s baze podataka, te dodana funkcionalnost "Pull to Refresh".
 
