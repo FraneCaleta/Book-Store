@@ -74,12 +74,12 @@ const EditProductScreen = (props) => {
   }, [error]);
 
   const submitHandler = useCallback(async () => {
-    if (!formState.formIsValid) {
+    /* if (!formState.formIsValid) {
       Alert.alert("Wrong input!", "Please check the errors in the form.", {
         text: "Okay",
       });
       return;
-    }
+    } */
     setError(null);
     setIsLoading(true);
     try {
@@ -173,6 +173,7 @@ const EditProductScreen = (props) => {
               errorText="Please enter a valid price!"
               keyboardType="decimal-pad"
               returnKeyType="next"
+              onInputChange={inputChangeHandler}
               required
               min={0.1}
             />
