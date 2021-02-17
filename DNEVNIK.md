@@ -132,3 +132,11 @@ Početak | Kraj
 ### Kratki opis promjena:
 Dodano osvježavanje baze podataka nakon uređivanja ili brisanja proizvoda. Dohvaćanje prethodnih narudžbi s baze podataka, te dodana funkcionalnost "Pull to Refresh".
 
+
+## 06.02.2021.
+Početak | Kraj
+------- | ----
+21:00   | 22:30
+### Kratki opis promjena:
+Dodan ekran za autentikaciju korisnika (AuthScreen.js), te implementiran njegov osnovni izgled.
+Implementirano registriranje korisnika (Sign Up), te spremanje njegovih podataka na web server.
