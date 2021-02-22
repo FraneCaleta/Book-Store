@@ -140,3 +140,13 @@ Početak | Kraj
 ### Kratki opis promjena:
 Dodan ekran za autentikaciju korisnika (AuthScreen.js), te implementiran njegov osnovni izgled.
 Implementirano registriranje korisnika (Sign Up), te spremanje njegovih podataka na web server.
+
+
+## 22.02.2021.
+Početak | Kraj
+------- | ----
+20:00   | 23:00
+### Kratki opis promjena:
+Implementirano spremanje i korištenje tokena, te mapiranje narudžbi ovisno o korisniku koji ih je naručio.
+Dodan je botun za odjavljivanje koji se nalazi u našem draweru i napravljen je StartupScreen.
+Također je implementirano automatsko prijavljivanje i odjavljivanje korisnika ovisno o trajanju tokena.
