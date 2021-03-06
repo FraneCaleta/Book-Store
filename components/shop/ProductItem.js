@@ -40,7 +40,7 @@ const ProductItem = (props) => {
 
 const styles = StyleSheet.create({
   product: {
-    height: 300,
+    height: 370,
     margin: 20,
   },
   touchable: {
@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
   },
   imageContainer: {
     width: "100%",
-    height: "60%",
+    height: "65%",
     borderTopLeftRadius: 15,
     borderTopRightRadius: 15,
     overflow: "hidden",
@@ -57,27 +57,31 @@ const styles = StyleSheet.create({
   image: {
     width: "100%",
     height: "100%",
+    resizeMode: "contain",
   },
   details: {
     alignItems: "center",
-    height: "17%",
-    padding: 10,
+    height: "15%",
+    padding: 5,
   },
   title: {
     fontWeight: "bold",
     fontSize: 18,
-    marginVertical: 2,
+    marginVertical: 1,
+    textAlign: "center",
   },
   price: {
-    fontSize: 14,
+    fontSize: 18,
     color: "#888",
+    marginVertical: 10,
+    fontWeight: "bold",
   },
   actions: {
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
-    height: "23%",
-    paddingHorizontal: 20,
+    height: "20%",
+    paddingHorizontal: 18,
   },
 });
 

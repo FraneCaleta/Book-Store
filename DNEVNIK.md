@@ -150,3 +150,11 @@ Početak | Kraj
 Implementirano spremanje i korištenje tokena, te mapiranje narudžbi ovisno o korisniku koji ih je naručio.
 Dodan je botun za odjavljivanje koji se nalazi u našem draweru i napravljen je StartupScreen.
 Također je implementirano automatsko prijavljivanje i odjavljivanje korisnika ovisno o trajanju tokena.
+
+
+## 06.03.2021.
+Početak | Kraj
+------- | ----
+20:00   | 22:00
+### Kratki opis promjena:
+Finalno uređivanje aplikacije - postavljanje boljih stilova i izgleda, te popravljanje novo uočenih buggova.

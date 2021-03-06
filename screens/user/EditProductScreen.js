@@ -171,7 +171,7 @@ const EditProductScreen = (props) => {
               id="price"
               label="Price"
               errorText="Please enter a valid price!"
-              keyboardType="decimal-pad"
+              keyboardType="default"
               returnKeyType="next"
               onInputChange={inputChangeHandler}
               required

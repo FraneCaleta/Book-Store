@@ -63,7 +63,8 @@ const styles = StyleSheet.create({
   },
   image: {
     width: "100%",
-    height: 300,
+    height: 400,
+    resizeMode: "contain",
   },
   actions: {
     marginVertical: 10,
@@ -74,10 +75,10 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     color: "#888",
     textAlign: "center",
-    marginVertical: 20,
+    marginBottom: 20,
   },
   description: {
-    fontSize: 14,
+    fontSize: 15,
     textAlign: "center",
     marginHorizontal: 20,
   },

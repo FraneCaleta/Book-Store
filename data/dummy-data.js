@@ -1,4 +1,6 @@
-import Product from '../models/product';
+/* Fetched from web server... */
+
+/* import Product from '../models/product';
 
 const PRODUCTS = [
     new Product(
@@ -52,3 +54,4 @@ const PRODUCTS = [
 ];
 
 export default PRODUCTS;
+ */
