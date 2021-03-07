@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "Book Store",
+    "name": "PMF Book Store",
     "slug": "pmf-book-store",
     "version": "1.0.0",
+    "description": "Mobile application for ordering books that has CRUD functionalities, user authentication and realtime database (Firebase)",
     "orientation": "portrait",
     "icon": "./assets/pmf-logo.png",
     "splash": {
