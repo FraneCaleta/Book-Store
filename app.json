@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "projekt-template",
-    "slug": "projekt-template",
+    "name": "Book Store",
+    "slug": "pmf-book-store",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/pmf-logo.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/pmf-logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0066ff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
