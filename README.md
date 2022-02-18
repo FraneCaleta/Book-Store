@@ -1,8 +1,8 @@
 # About project
 This project was made for a subject at university called "Mobile application programming".
 
-It is an mobile application for ordering books that has CRUD (Create, Read, Update and Delete) functionalities, user authentication and realtime database (Firebase). It was created by using Expo, a framework and a platform for universal React applications.
-For application state management we used Redux, an open-source JavaScript library.
+It is an mobile application for ordering books that has CRUD (Create, Read, Update and Delete) functionalities, user authentication and realtime database (Firebase).<br />
+It was created by using Expo, a framework and a platform for universal React applications. For application state management Redux was used, an open-source JavaScript library.
 
 ## Application pictures examples (you can also find them attached in ./assets/app-look/)
 1. Cart screen - https://imgur.com/a/vWcycCc
