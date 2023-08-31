@@ -1,10 +1,10 @@
-# About project
+# Book Store
 ***This project was made for a subject at university called "Mobile application programming".***
 
 It is a [React Native](https://reactnative.dev/) mobile application for ordering books that has CRUD (Create, Read, Update and Delete) functionalities, user authentication and realtime database ([Firebase](https://firebase.google.com/)).<br />
 It's hosted on [Expo](https://expo.dev/), a framework and a platform for universal React applications. For application state management [Redux](https://redux.js.org/) was used, an open-source JavaScript library.
 
-## Application pictures examples (you can also find them attached in ./assets/app-look/)
+## [Application pictures examples](./assets/app-look/)
 1. Cart screen - https://imgur.com/a/vWcycCc
 2. Authentication screen - https://imgur.com/Ohbwx1w
 3. Add product screen - https://imgur.com/Th1qbLh
